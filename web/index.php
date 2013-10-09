@@ -3,6 +3,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Allows you to create a one-time use link to securely send passwords or other information" />
+    <meta name="keywords" content="dead drop,security,encryption,passwords,secure" />
+    <meta name="author" content="metatags generator">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="3 month">
+    <title>Send Secure information, passwords, links, dead drop</title>
+    <!-- secure, password, encryption -->
+
     <style>
         .encrypt{
             display: none;
@@ -20,9 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/assets/ico/favicon.png">
-
-    <title>Theme Template for Bootstrap</title>
+    <link rel="shortcut icon" href="/skull.png">
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap.css" rel="stylesheet">
@@ -57,9 +63,7 @@
 
 
 
-<div class="page-header">
-    <h1>Enter the info to secure</h1>
-</div>
+
     <div class="row encrypt" >
 
         <div class="alert alert-success">
@@ -92,7 +96,7 @@
 
             <!-- /.col-sm-4 -->
         </div>
-        <div class="row final" id="encryptedRow" >
+        <div class="row final" id="finalRow" >
             <div class="col-sm-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -121,6 +125,10 @@
             </div><!-- /.col-sm-4 -->
         </div>
         <p></p>
+        <div class="page-header plain">
+            <h1>Enter the info to secure</h1>
+        </div>
+
     <div class="row plain" id="plainTextRow">
         <div class="col-sm-12">
             <div class="panel panel-default">
@@ -149,7 +157,30 @@
     <div class="col-sm-12">
         <div class="panel panel-default">
             <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet suscipit dolor. Pellentesque ac vulputate urna. Integer vitae diam lectus. Etiam hendrerit scelerisque quam vitae venenatis. Ut in sem vitae arcu faucibus fermentum. Sed ac mi purus. Cras fermentum magna nec ante dictum fermentum. Proin at metus sapien. In sollicitudin varius ante eget tincidunt. Nullam tempor felis quis est semper sagittis. Curabitur id est nec libero tincidunt varius non ut sem. Aliquam tincidunt, nisl a volutpat dapibus, eros mi imperdiet mauris, eget feugiat diam odio a nulla. Proin porta nunc id dolor tempus euismod. Pellentesque ullamcorper, felis varius ultrices scelerisque, quam magna aliquam augue, tristique molestie dolor tortor vitae lorem. Aenean quis faucibus nisi.
+                <h2>The Problem</h2>
+                Sending someone secure data is a real hassle. If they don't have GPG, or some such tool, then what do you do? Send a user name in one email. password in another most likely.
+                <br>
+                This isn't great <b>That email sits on a server forever! if their email is EVER compromised then so is your data</b>
+
+                <br>
+                Here we follow a couple basic steps.
+                <ul>
+                    <li>We never send yout data over the wire unencrypted. We do it all via javascript in YOUR browswer</li>
+                    <li>We can not decrypt your data, we simply don't have the password</li>
+                    <li>We don't do encryption, we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
+                    <li>Error on the side of safety, something goes wrong (wrong password,etc..) we delete the data. This is not a locker.</li>
+                </ul>
+                <h2>So is this safe?</h2>
+                The design is such that your on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
+                <br>
+                The issues are
+                <ul>
+                    <li>someone gets the url/password before the intended recipient.
+                    <li>If their email is compromised, and someone is monitoring it, well your out of luck</li>
+                    <li>you text the info, and someone else has the recipients phone</li>
+                </ul>
+
+                I think that if these are issues, your a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort and really shouldn't be using anonymous services on the internet.
             </div>
         </div>
     </div><!-- /.col-sm-4 -->

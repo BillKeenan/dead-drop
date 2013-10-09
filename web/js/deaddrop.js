@@ -1,22 +1,24 @@
+
 var pw;
 
-function symmetricEncrypt(){
-
+function symmetricEncrypt() {
+    "use strict";
     pw = makeid();
-    var crypt= sjcl.encrypt(pw, $('#message').val())
+    var crypt = sjcl.encrypt(pw, $('#message').val());
     $("#encryptedDisplay").text(crypt);
     $("#password").val(pw);
     $(".encrypt").show();
     $(".plain").hide();
 }
 
-function symmetricDecrypt(){
+function symmetricDecrypt () {
 
 }
 
-function drop(){
+function drop () {
+    "use strict";
     var cryptData = $("#encryptedDisplay").text();
-    $.post( "drop.php",{data:cryptData}, function( data ) {
+    $.post( "drop.php",{data:cryptData}, function(data) {
         $(".encrypt").hide();
         $(".final").show();
 
@@ -27,16 +29,19 @@ function drop(){
 }
 function makeid()
 {
+    "use strict";
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-    for( var i=0; i < 15; i++ )
+    for ( var i =0; i < 15; i++ ){
         text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
 
     return text;
 }
 
 function buildUrl(id){
+    "use strict";
     var http = location.protocol;
     var slashes = http.concat("//");
     var host = slashes.concat(window.location.hostname);
@@ -47,6 +52,7 @@ function buildUrl(id){
 }
 
 function require(script) {
+    "use strict";
     $.ajax({
         url: script,
         dataType: "script",
@@ -67,5 +73,6 @@ function require(script) {
  */
 
 function showMessages(str) {
+    "use strict";
     alert(str);
 }

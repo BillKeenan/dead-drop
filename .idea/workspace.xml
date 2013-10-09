@@ -5,12 +5,12 @@
     <ignored path="deadDrop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381328321683" ignored="false" />
-    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381331339087" ignored="false" />
+    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381336154601" ignored="false" />
     <file path="/a.dummy" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327243338" ignored="false" />
     <file path="/theme.css" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327684893" ignored="false" />
     <file path="/index.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329186555" ignored="false" />
     <file path="/drop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381330204742" ignored="false" />
-    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381331432190" ignored="false" />
+    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381335740934" ignored="false" />
     <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381330047230" ignored="false" />
     <file path="/CSRF.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329501000" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,16 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="101" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.41747573">
+            <state line="179" column="89" selection-start="7440" selection-end="7440" vertical-scroll-proportion="-7.56">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1381331432000" expanded="true" signature="1195:1297" placeholder="..." />
-                <marker date="1381331432000" expanded="true" signature="1222:1284" placeholder="{...}" />
+                <marker date="1381335741000" expanded="true" signature="1618:1720" placeholder="..." />
+                <marker date="1381335741000" expanded="true" signature="1645:1707" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deaddrop.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deaddrop.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="6" column="54" selection-start="131" selection-end="131" vertical-scroll-proportion="0.10962241">
               <folding />
             </state>
           </provider>
@@ -68,10 +65,8 @@
       <file leaf-file-name="drop.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/drop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="9" selection-start="470" selection-end="470" vertical-scroll-proportion="-13.916667">
-              <folding>
-                <element signature="e#6#90#0" expanded="true" />
-              </folding>
+            <state line="51" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,7 +74,7 @@
       <file leaf-file-name="storage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/class/storage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="-8.125">
+            <state line="18" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +83,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="-6.875">
+            <state line="11" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,10 +124,10 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/class/CSRF.php" />
         <option value="$PROJECT_DIR$/web/class/storage.php" />
-        <option value="$PROJECT_DIR$/web/drop.php" />
-        <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
         <option value="$PROJECT_DIR$/web/theme.css" />
+        <option value="$PROJECT_DIR$/web/drop.php" />
         <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
       </list>
     </option>
   </component>
@@ -218,6 +213,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -263,9 +298,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -289,7 +324,7 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -297,6 +332,9 @@
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -333,10 +371,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25275397" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25581396" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -345,6 +382,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -411,46 +449,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/resources/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="844" selection-end="844" vertical-scroll-proportion="0.3697183">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/test/unittest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="29" selection-start="5814" selection-end="5814" vertical-scroll-proportion="2.5735295">
-          <folding />
-        </state>
+        <state line="140" column="29" selection-start="5814" selection-end="5814" vertical-scroll-proportion="2.5735295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/test/example-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.1369863">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.1369863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/resources/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="206" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="53" selection-start="206" selection-end="229" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/src/openpgp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="24" selection-start="14884" selection-end="14884" vertical-scroll-proportion="1.3548387">
-          <folding />
-        </state>
+        <state line="358" column="24" selection-start="14884" selection-end="14884" vertical-scroll-proportion="1.3548387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/tests/vendor/jquery.js">
@@ -476,32 +492,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/class/storage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/drop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="470" selection-end="470" vertical-scroll-proportion="-13.916667">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+        <state line="18" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -513,16 +506,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/drop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ico/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ico/apple-touch-icon-72-precomposed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/openpgp.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="445" column="155" selection-start="206019" selection-end="206019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="101" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.41747573">
+        <state line="179" column="89" selection-start="7440" selection-end="7440" vertical-scroll-proportion="-7.56">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1381331432000" expanded="true" signature="1195:1297" placeholder="..." />
-            <marker date="1381331432000" expanded="true" signature="1222:1284" placeholder="{...}" />
+            <marker date="1381335741000" expanded="true" signature="1618:1720" placeholder="..." />
+            <marker date="1381335741000" expanded="true" signature="1645:1707" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="131" selection-end="131" vertical-scroll-proportion="0.10962241">
+          <folding />
         </state>
       </provider>
     </entry>

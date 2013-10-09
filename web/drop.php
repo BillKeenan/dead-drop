@@ -10,6 +10,10 @@ include_once("./class/storage.php");
 
 //validate request
 
+
+//TODO: should put something in to make sure that the page was generated within the last 5 minutes or somethign
+//TODO: lets get a time generated key in the form post that we can check against
+
 //must be post
 if (! strtoupper($_SERVER['REQUEST_METHOD'])=="POST"){
     header('HTTP/1.1 500 Internal Server Error');
@@ -45,7 +49,6 @@ foreach($keysToCheck as $key=>$value){
         print("data missing:".$value);
         exit;
     }
-
 }
 
 $storage = new Storage();
