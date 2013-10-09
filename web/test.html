@@ -1,91 +1,12 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/assets/ico/favicon.png">
-
-    <title>Theme Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="/assets/js/html5shiv.js"></script>
-    <script src="/assets/js/respond.min.js"></script>
-    <![endif]-->
+    <title></title>
 </head>
-
 <body>
-
-<div class="container theme-showcase">
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <h1>One Time Dead Drop</h1>
-    <p>Need to send some data securely? Password? Love Note? Haiku? This is the place</p>
-    <p><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></p>
-</div>
-
-
-
-<div class="page-header">
-    <h1>Enter the info to secure</h1>
-</div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Data To Encrypt</h3>
-                </div>
-                <div class="panel-body">
-                    <textarea name="message" id="message" style="width:100%" rows="15"></textarea>
-                </div>
-                <div class="panel-footer">
-                    <button type="button" class="btn btn-lg btn-primary" onclick="symmetricEncrypt()">Encrypt!</button>
-                    <button type="button" class="btn btn-lg btn-primary" onclick="symmetricDecrypt()">Decrypt!</button>
-                </div>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-
-
-
-<a id="about"></a>
-<div class="page-header">
-    <h1>How Does This Work?</h1>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
-        <div class="panel panel-default">
-            <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet suscipit dolor. Pellentesque ac vulputate urna. Integer vitae diam lectus. Etiam hendrerit scelerisque quam vitae venenatis. Ut in sem vitae arcu faucibus fermentum. Sed ac mi purus. Cras fermentum magna nec ante dictum fermentum. Proin at metus sapien. In sollicitudin varius ante eget tincidunt. Nullam tempor felis quis est semper sagittis. Curabitur id est nec libero tincidunt varius non ut sem. Aliquam tincidunt, nisl a volutpat dapibus, eros mi imperdiet mauris, eget feugiat diam odio a nulla. Proin porta nunc id dolor tempus euismod. Pellentesque ullamcorper, felis varius ultrices scelerisque, quam magna aliquam augue, tristique molestie dolor tortor vitae lorem. Aenean quis faucibus nisi.
-            </div>
-        </div>
-    </div><!-- /.col-sm-4 -->
-</div>
-
-</div> <!-- /container -->
-
- <pre id="pubkey">
-   </pre>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/js/deaddrop.js"></script>
-<script src="/dist/js/bootstrap.min.js"></script>
-<script src="/assets/js/holder.js"></script>
+<form action="drop.php" method="POST">
+    <input type="text" name="data" value='{"iv":"giyX4LJLNcwPn4evTPf3lQ==","v":1,"iter":1000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"Kf5CDCoBiaY=","ct":"xRoEvrxyfdRsf8dP9rXssMg3eCU="}'>
+    <input type="submit">
+</form>
 </body>
 </html>
