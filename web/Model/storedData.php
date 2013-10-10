@@ -7,6 +7,10 @@
  */
 
 class storedData {
+    public function __construct(){
+        $this->created = new MongoDate();
+    }
+    public $created;
     public $key;
     public $data;
 

@@ -109,7 +109,7 @@
                             <br>
                             Click here <span class="code" id="url"></span>
                             <br>
-                            and use the password <span class="code" id="pass"></span>.
+                            and use the password I sent you in the other email
                             <br>
                             This will ONLY work once, so be careful with the password, and make sure to copy the data immediately.
                             <br>
@@ -117,12 +117,35 @@
                             <br>
                             Thanks!
                         </div>
+                        <p>
+
+                        </p>
+                        <div></div>
                     </div>
                     <div class="panel-footer">
-                        <button type="button" class="btn btn-lg btn-primary" onclick="copy()">Copy To Clipboard</button>
                     </div>
                 </div>
             </div><!-- /.col-sm-4 -->
+
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Password</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div style="overflow: auto" id="pass">
+
+                        </div>
+                        <p>
+                            <span class="code" id="pass"></span>
+                        </p>
+                        <div></div>
+                    </div>
+                    <div class="panel-footer">
+                    </div>
+                </div>
+            </div><!-- /.col-sm-4 -->
+
         </div>
         <p></p>
         <div class="page-header plain">

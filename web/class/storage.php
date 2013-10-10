@@ -37,7 +37,14 @@ class Storage {
     public function GetData($id)
     {
         $db = $this->Mongo();
-        $data = $db->drops->findOne(array("key"=>$id));
+        $date = new DateTime();
+        $yesterday = new MongoDate($date->sub(new DateInterval('P1D'))->getTimestamp());
+
+        $data = $db->drops->findOne(array("key"=>$id,"created"=>array('$gt'=>$yesterday)));
+
+        if ($data){
+            $db->drops->remove(array("_id"=>$data["_id"]));
+        }
         return $data["data"];
     }
 }
