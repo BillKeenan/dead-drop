@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    var str = '{"iv":"Co9wUuUL7azSGa/jTsR/Kg==","v":1,"iter":1000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"C/R7yOetxjc=","ct":"5Xuox97b+piNV/NcxFVV","key":"5256cb1e93aed6.45018344"}';
+
+
+    var a = str.replace(/^\{|\}$/g, '').split(/,/), out={}, i, m;
+    for (i=0; i<a.length; i++) {
+        if (!(m=a[i].match(/^(?:(["']?)([a-z][a-z0-9]*)\1):(?:(\d+)|"([a-z0-9+\/%*_.@=\-]*)")$/i))) {
+            console.log(a[i]);
+
+            return;
+        }
+
+    }
+
+
+</script>
+</body>
+</html>

@@ -169,12 +169,15 @@
    */
   decode: function (str) {
     str = str.replace(/\s/g,'');
-    if (!str.match(/^\{.*\}$/)) { 
+      console.log(str);
+    if (!str.match(/^\{.*\}$/)) {
+        console.log('1');
       throw new sjcl.exception.invalid("json decode: this isn't json!");
     }
     var a = str.replace(/^\{|\}$/g, '').split(/,/), out={}, i, m;
     for (i=0; i<a.length; i++) {
       if (!(m=a[i].match(/^(?:(["']?)([a-z][a-z0-9]*)\1):(?:(\d+)|"([a-z0-9+\/%*_.@=\-]*)")$/i))) {
+          console.log('here');
         throw new sjcl.exception.invalid("json decode: this isn't json!");
       }
       if (m[3]) {

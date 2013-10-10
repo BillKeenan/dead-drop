@@ -163,10 +163,13 @@
                 This isn't great <b>That email sits on a server forever! if their email is EVER compromised then so is your data</b>
 
                 <br>
+                <br>
                 Here we follow a couple basic steps.
                 <ul>
-                    <li>We never send yout data over the wire unencrypted. We do it all via javascript in YOUR browswer</li>
+                    <li>We never send your data over the wire unencrypted. We do it all via javascript in YOUR browser</li>
                     <li>We can not decrypt your data, we simply don't have the password</li>
+                    <li>We do not use cookies. the end.</li>
+                    <li>We do not log your I.P., we log the visit for load calculations, but nothing ABOUT you</li>
                     <li>We don't do encryption, we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
                     <li>Error on the side of safety, something goes wrong (wrong password,etc..) we delete the data. This is not a locker.</li>
                 </ul>
@@ -179,8 +182,15 @@
                     <li>If their email is compromised, and someone is monitoring it, well your out of luck</li>
                     <li>you text the info, and someone else has the recipients phone</li>
                 </ul>
-
                 I think that if these are issues, your a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort and really shouldn't be using anonymous services on the internet.
+<p></p>
+
+                <h2>What if your lying?</h2>
+                Well, your a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code</a>
+                <h2>Technologies in Use</h2>
+                <a target="_blank" href="https://gist.github.com/banksean/300494">MersenneTwister implementation in javacsript</a>
+                <br>
+                <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Symmetric Encryption in javascript</a>
             </div>
         </div>
     </div><!-- /.col-sm-4 -->
@@ -189,7 +199,8 @@
 </div> <!-- /container -->
 
  <pre id="pubkey">
-   </pre>
+
+ </pre>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -198,5 +209,6 @@
 <script src="/dist/js/bootstrap.min.js"></script>
 <script src="/assets/js/holder.js"></script>
 <script src="/js/sjcl.js"></script>
+<script src="/js/merseen.js"></script>
 </body>
 </html>
