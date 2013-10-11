@@ -10,7 +10,6 @@ include_once("./class/storage.php");
 
 //validate request
 
-
 //TODO: should put something in to make sure that the page was generated within the last 5 minutes or somethign
 //TODO: lets get a time generated key in the form post that we can check against
 
