@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta property="og:image" content="http://dead-drop.me/skull.png" />
     <meta name="description" content="Allows you to create a one-time use link to securely send passwords or other information" />
     <meta name="keywords" content="dead drop,security,encryption,passwords,secure" />
     <meta name="author" content="metatags generator">
@@ -64,31 +65,12 @@
 
 
 
-    <div class="row encrypt" >
 
-        <div class="alert alert-success">
-            Ok, data encrypted securely, in your browser. Click below to create the drop and get the link to send
-        </div>
-
-        <!-- /.col-sm-4 -->
-    </div>
-    <div class="row encrypt" id="encryptedRow" >
-        <div class="col-sm-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Encrypted Data</h3>
-                </div>
-                <div class="panel-body">
-                    <div style="overflow: auto" id="encryptedDisplay"></div>
-                </div>
-                <div class="panel-footer">
-                    <button type="button" class="btn btn-lg btn-primary" onclick="drop()">Make The Drop</button>
-                </div>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-<p></p>
         <div class="row final" >
+            <div class="alert alert-success">
+                THIS IS THE PASSWORD! YOU NEED TO COPY THIS!-> <strong><span id="pass"></span></strong>
+            </div>
+
 
             <div class="alert alert-success">
                 Ok, drop made, you need to send the info below, we recomend sending the url/password seperately (email/messenger/text)
@@ -127,24 +109,6 @@
                 </div>
             </div><!-- /.col-sm-4 -->
 
-            <div class="col-sm-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Password</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div style="overflow: auto" id="pass">
-
-                        </div>
-                        <p>
-                            <span class="code" id="pass"></span>
-                        </p>
-                        <div></div>
-                    </div>
-                    <div class="panel-footer">
-                    </div>
-                </div>
-            </div><!-- /.col-sm-4 -->
 
         </div>
         <p></p>
@@ -197,7 +161,7 @@
                     <li>Error on the side of safety, something goes wrong (wrong password,etc..) we delete the data. This is not a locker.</li>
                 </ul>
                 <h2>So is this safe?</h2>
-                The design is such that your on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
+                The design is such that you're on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
                 <br>
                 The issues are
                 <ul>

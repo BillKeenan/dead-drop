@@ -11,10 +11,11 @@ function symmetricEncrypt() {
     "use strict";
     pw = makeid();
     var crypt = sjcl.encrypt(pw, $('#message').val());
-    $("#encryptedDisplay").text(crypt);
+    drop(crypt);
+
+//    $("#encryptedDisplay").text(crypt);
     $("#password").val(pw);
-    $(".encrypt").show();
-    $(".plain").hide();
+  //  $(".encrypt").show();
 }
 
 function symmetricDecrypt () {
@@ -37,16 +38,18 @@ function symmetricDecrypt () {
     }
 }
 
-function drop () {
+function drop (cryptData) {
     "use strict";
-    var cryptData = $("#encryptedDisplay").text();
     $.post( "drop.php",{data:cryptData}, function(data) {
-        $(".encrypt").hide();
-        $(".final").show();
+        $(".plain").hide(300,function(){
+                var id = data.id;
+                $("#url").text (buildUrl(id));
+                $("#pass").text(pw);
+            $(".final").show(200);
+        }
+        );
 
-        var id = data.id;
-        $("#url").text (buildUrl(id));
-        $("#pass").text(pw);
+
     });
 }
 function makeid()
@@ -88,7 +91,7 @@ function buildUrl(id){
     var http = location.protocol;
     var slashes = http.concat("//");
     var host = slashes.concat(window.location.hostname);
-    var final = host.concat("?id=");
+    var final = host.concat("/pickup.php?id=");
     var final = final.concat(id);
     return final;
 
