@@ -32,13 +32,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/skull.png">
 
-    <!-- Bootstrap core CSS -->
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/min/?f=dist/css/bootstrap.css,dist/css/bootstrap-theme.min.css,theme.css&1" />   
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -59,7 +53,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <h1>One Time Dead Drop</h1>
-        <p>Need to send some data securely? Password? Love Note? Haiku? This is the place</p>
+        <p>Need to send some data securely? Password? Love Note? Haiku? This is the place.</p>
         <p><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></p>
     </div>
 
@@ -130,7 +124,7 @@
                     </div>
                 </div>
                 <div class="panel-footer">
-
+                    <button type="button" class="btn btn-lg btn-primary" onclick="window.location.assign(root)">Make your own Drop</button>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -161,7 +155,7 @@
                         <li>Error on the side of safety, something goes wrong (wrong password,etc..) we delete the data. This is not a locker.</li>
                     </ul>
                     <h2>So is this safe?</h2>
-                    The design is such that your on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
+                    The design is such that you're on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
                     <br>
                     The issues are
                     <ul>
@@ -172,18 +166,25 @@
                     I think that if these are issues, your a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort and really shouldn't be using anonymous services on the internet.
                     <p></p>
 
-                    <h2>What if your lying?</h2>
-                    Well, your a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code</a>
+                    <h2>What if you're lying?</h2>
+                    Well, you're a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code</a>
                     <h2>Technologies in Use</h2>
                     <a target="_blank" href="https://gist.github.com/banksean/300494">MersenneTwister implementation in javacsript</a>
                     <br>
                     <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Symmetric Encryption in javascript</a>
+
+                    <h2>Suggestions? Ideas?</h2>
+                    <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'0'+'8'+';'+'&'+'#'+
+                            '1'+'1'+'6'+';'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'5'+'8'+';'+'d'+'&'+'#'+'1'+'0'+'1'+';'+'a'+'d'+'%'+
+                            '6'+'4'+'r'+'o'+'p'+'&'+'#'+'6'+'4'+';'+'b'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'3'+'7'+';'+'6'+'7'+'&'+
+                            '#'+'1'+'0'+'9'+';'+'%'+'6'+'F'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'%'+'2'+'&'+'#'+'6'+'9'+';'+'n'+'e'+'t'+
+                            "'"+'>'+'d'+'e'+'a'+'d'+'d'+'r'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'1'+'1'+'2'+';'+'&'+'#'+'6'+'4'+';'+
+                            'b'+'&'+'#'+'1'+'0'+'5'+';'+'g'+'m'+'o'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'4'+'6'+';'+'n'+'&'+'#'+
+                            '1'+'0'+'1'+';'+'&'+'#'+'1'+'1'+'6'+';'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
-
-</div> <!-- /container -->
 
  <pre id="pubkey">
 
@@ -191,11 +192,6 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/js/deaddrop.js"></script>
-<script src="/dist/js/bootstrap.min.js"></script>
-<script src="/assets/js/holder.js"></script>
-<script src="/js/sjcl.js"></script>
-<script src="/js/merseen.js"></script>
+    <script type="text/javascript" src="/min/?f=assets/js/jquery.js,js/deaddrop.js,dist/js/bootstrap.min.js,assets/js/holder.js,js/sjcl.js,js/merseen.js&456&1"></script>
 </body>
 </html>

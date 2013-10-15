@@ -5,15 +5,15 @@
     <ignored path="deadDrop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381328321683" ignored="false" />
-    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381515659515" ignored="false" />
+    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381518694003" ignored="false" />
     <file path="/a.dummy" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381422406110" ignored="false" />
     <file path="/theme.css" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327684893" ignored="false" />
     <file path="/index.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329186555" ignored="false" />
     <file path="/drop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381330204742" ignored="false" />
-    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381515479669" ignored="false" />
-    <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381430953373" ignored="false" />
+    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381525084069" ignored="false" />
+    <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381521305947" ignored="false" />
     <file path="/CSRF.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329501000" ignored="false" />
-    <file path="/pickup.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381429178538" ignored="false" />
+    <file path="/pickup.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381524580836" ignored="false" />
     <file path="/getdrop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381421466527" ignored="false" />
     <file path="/convenience.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381427897950" ignored="false" />
     <file path="/anothertest.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381428016982" ignored="false" />
@@ -40,95 +40,27 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="20" selection-start="5638" selection-end="5638" vertical-scroll-proportion="-6.92">
+            <state line="34" column="4" selection-start="1216" selection-end="1340" vertical-scroll-proportion="-10.2">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1381515480000" expanded="true" signature="1687:1789" placeholder="..." />
-                <marker date="1381515480000" expanded="true" signature="1714:1776" placeholder="{...}" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1381844762000" expanded="true" signature="1568:1670" placeholder="..." />
+                <marker date="1381844762000" expanded="true" signature="1595:1657" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pickup.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pickup.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pickup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="29" selection-start="3537" selection-end="3546" vertical-scroll-proportion="0.0">
+            <state line="34" column="131" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6273063">
               <folding>
-                <marker date="1381429179000" expanded="true" signature="1695:1797" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="1722:1784" placeholder="{...}" />
-                <marker date="1381429179000" expanded="true" signature="5124:5362" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="5156:5362" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="5202:5362" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="5243:5362" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="5773:6284" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="5773:5973" placeholder="..." />
-                <marker date="1381429179000" expanded="true" signature="6847:7172" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1381844915000" expanded="true" signature="1547:1649" placeholder="..." />
+                <marker date="1381844915000" expanded="true" signature="1574:1636" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deaddrop.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="32" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.7705479">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anothertest.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/anothertest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drop.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/drop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="19" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getdrop.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/getdrop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/class/storage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storedData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Model/storedData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,12 +85,12 @@
         <option value="$PROJECT_DIR$/web/getdrop.php" />
         <option value="$PROJECT_DIR$/sjcl/sjcl-master/core/convenience.js" />
         <option value="$PROJECT_DIR$/web/anothertest.html" />
-        <option value="$PROJECT_DIR$/web/pickup.php" />
         <option value="$PROJECT_DIR$/web/Model/storedData.php" />
-        <option value="$PROJECT_DIR$/web/class/storage.php" />
         <option value="$PROJECT_DIR$/web/drop.php" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
+        <option value="$PROJECT_DIR$/web/class/storage.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/pickup.php" />
       </list>
     </option>
   </component>
@@ -290,9 +222,9 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -322,14 +254,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -368,7 +300,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26927784" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2729498" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -497,40 +429,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pickup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="29" selection-start="3537" selection-end="3546" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1381429179000" expanded="true" signature="1695:1797" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="1722:1784" placeholder="{...}" />
-            <marker date="1381429179000" expanded="true" signature="5124:5362" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="5156:5362" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="5202:5362" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="5243:5362" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="5773:6284" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="5773:5973" placeholder="..." />
-            <marker date="1381429179000" expanded="true" signature="6847:7172" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/getdrop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="22" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Model/storedData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/class/storage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -542,22 +443,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Model/storedData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="59" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="20" selection-start="5638" selection-end="5638" vertical-scroll-proportion="-6.92">
+        <state line="34" column="4" selection-start="1216" selection-end="1340" vertical-scroll-proportion="-10.2">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1381515480000" expanded="true" signature="1687:1789" placeholder="..." />
-            <marker date="1381515480000" expanded="true" signature="1714:1776" placeholder="{...}" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1381844762000" expanded="true" signature="1568:1670" placeholder="..." />
+            <marker date="1381844762000" expanded="true" signature="1595:1657" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
+    <entry file="file://$PROJECT_DIR$/web/pickup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="32" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.7705479">
-          <folding />
+        <state line="34" column="131" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6273063">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1381844915000" expanded="true" signature="1547:1649" placeholder="..." />
+            <marker date="1381844915000" expanded="true" signature="1574:1636" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

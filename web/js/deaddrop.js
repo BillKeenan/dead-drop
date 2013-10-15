@@ -6,16 +6,14 @@
 
 var pw;
 var errCount=0;
+var root;
 
 function symmetricEncrypt() {
     "use strict";
     pw = makeid();
     var crypt = sjcl.encrypt(pw, $('#message').val());
     drop(crypt);
-
-//    $("#encryptedDisplay").text(crypt);
     $("#password").val(pw);
-  //  $(".encrypt").show();
 }
 
 function symmetricDecrypt () {
@@ -32,10 +30,18 @@ function symmetricDecrypt () {
         errCount++;
         alert('uh oh, that didnt work');
         if (errCount ==3){
-            location.reload();
+            window.location.assign(root);
         }
 
     }
+}
+
+
+
+mail = function(){
+    var subject = "I've Sent you a Dead Drop";
+    var body = encodeURIComponent($("#finalData").text());
+    window.open('mailto:nobody@nowhere.blah?subject='+subject+'&body='+body, '_Blank')
 }
 
 function drop (cryptData) {
@@ -78,6 +84,7 @@ function getDrop(id){
             $("#encrypted").text(JSON.stringify(data));
             $(".encrypted").show();
             $(".initial").hide();
+            $("#password").focus();
         },
         error: function () {
 
@@ -111,3 +118,10 @@ function require(script) {
         }
     });
 }
+
+$(document).ready(function(){
+    $("#message").focus();
+    var http = location.protocol;
+    var slashes = http.concat("//");
+    root = slashes.concat(window.location.hostname);
+});

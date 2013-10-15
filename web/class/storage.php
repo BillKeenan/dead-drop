@@ -19,6 +19,7 @@ class Storage {
         $db = $this->Mongo();
         $db->drops->insert($data);
 
+        $db->tracks->insert(Array("key"=>$data->key,"created"=>new MongoDate()));
         return $data->key;
     }
 
@@ -44,6 +45,8 @@ class Storage {
 
         if ($data){
             $db->drops->remove(array("_id"=>$data["_id"]));
+            $db->tracks->update(Array("key"=>$data["key"]),Array('$set'=>array("pickup"=>new MongoDate())));
+
         }
         return $data["data"];
     }
