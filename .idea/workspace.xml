@@ -10,7 +10,7 @@
     <file path="/theme.css" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327684893" ignored="false" />
     <file path="/index.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329186555" ignored="false" />
     <file path="/drop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381330204742" ignored="false" />
-    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381933319254" ignored="false" />
+    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381933625768" ignored="false" />
     <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381521305947" ignored="false" />
     <file path="/CSRF.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329501000" ignored="false" />
     <file path="/pickup.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381524580836" ignored="false" />
@@ -37,29 +37,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="0" selection-start="14151" selection-end="14151" vertical-scroll-proportion="-9.36">
+            <state line="245" column="19" selection-start="9911" selection-end="9911" vertical-scroll-proportion="0.57564574">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1381933336000" expanded="true" signature="1717:1819" placeholder="..." />
-                <marker date="1381933336000" expanded="true" signature="1744:1806" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pickup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pickup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="695" selection-end="695" vertical-scroll-proportion="-13.125">
-              <folding>
-                <marker date="1381849126000" expanded="true" signature="1544:1646" placeholder="..." />
-                <marker date="1381849126000" expanded="true" signature="1571:1633" placeholder="{...}" />
+                <marker date="1381933626000" expanded="true" signature="1835:1937" placeholder="..." />
+                <marker date="1381933626000" expanded="true" signature="1862:1924" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storage.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="storage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/class/storage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.80985916">
+            <state line="51" column="5" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-31.875">
               <folding />
             </state>
           </provider>
@@ -116,8 +104,8 @@
         <option value="$PROJECT_DIR$/web/drop.php" />
         <option value="$PROJECT_DIR$/web/pickup.php" />
         <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/web/class/storage.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
   </component>
@@ -455,16 +443,6 @@
         <state line="11" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pickup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="695" selection-end="695" vertical-scroll-proportion="-13.125">
-          <folding>
-            <marker date="1381849126000" expanded="true" signature="1544:1646" placeholder="..." />
-            <marker date="1381849126000" expanded="true" signature="1571:1633" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/getdrop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="21" selection-start="1184" selection-end="1184" vertical-scroll-proportion="-29.25">
@@ -479,6 +457,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/class/storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-31.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-2.8076923">
@@ -488,22 +473,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="0" selection-start="14151" selection-end="14151" vertical-scroll-proportion="-9.36">
+        <state line="245" column="19" selection-start="9911" selection-end="9911" vertical-scroll-proportion="0.57564574">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1381933336000" expanded="true" signature="1717:1819" placeholder="..." />
-            <marker date="1381933336000" expanded="true" signature="1744:1806" placeholder="{...}" />
+            <marker date="1381933626000" expanded="true" signature="1835:1937" placeholder="..." />
+            <marker date="1381933626000" expanded="true" signature="1862:1924" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/class/storage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.80985916">
-          <folding />
         </state>
       </provider>
     </entry>

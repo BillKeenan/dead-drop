@@ -37,8 +37,11 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/skull.png">
 
-    <!-- Bootstrap core CSS -->
-    <link type="text/css" rel="stylesheet" href="/min/?f=dist/css/bootstrap.css,dist/css/bootstrap-theme.min.css,theme.css&1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -234,6 +237,13 @@ Thanks!
                 <a target="_blank" href="https://gist.github.com/banksean/300494">MersenneTwister implementation in javacsript</a>
                 <br>
                 <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Symmetric Encryption in javascript</a>
+<br>
+                <a href="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">Jquery 1.10.2</a>
+<br>
+                <a href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">bootstrap 3.0.0.0</a>
+                <br>
+
+                <a href="/js/merseen.js">A local version of the merseen script referenced above</a>
 
                 <h2>Suggestions? Ideas?</h2>
                 <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'&'+'#'+'9'+'7'+';'+'i'+'l'+'t'+'&'+'#'+'1'+'1'+'1'+';'+'&'+
@@ -324,11 +334,7 @@ HjBdnJoB9vFg6JIyiftgrDglD17q+I8M53j99qJ32t6ii6i4xYpD6knPAdBy
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
