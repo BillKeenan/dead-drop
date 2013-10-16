@@ -320,12 +320,24 @@ HjBdnJoB9vFg6JIyiftgrDglD17q+I8M53j99qJ32t6ii6i4xYpD6knPAdBy
 
 </div> <!-- /container -->
 
- <pre id="pubkey">
-
- </pre>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//crypto.stanford.edu/sjcl/sjcl.js"></script>
+
+    <script type="text/javascript" src="/min/?f=js/deaddrop.js,js/merseen.js&456&1"></script>
+<!-- local all hosted version
     <script type="text/javascript" src="/min/?f=assets/js/jquery.js,js/deaddrop.js,dist/js/bootstrap.min.js,assets/js/holder.js,js/sjcl.js,js/merseen.js&456&1"></script>
+-->
+
 </body>
 </html>

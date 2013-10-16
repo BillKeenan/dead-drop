@@ -44,7 +44,7 @@ class Storage {
         $data = $db->drops->findOne(array("key"=>$id,"created"=>array('$gt'=>$yesterday)));
 
         if ($data){
-        //    $db->drops->remove(array("_id"=>$data["_id"]));
+            $db->drops->remove(array("_id"=>$data["_id"]));
             $db->tracks->update(Array("key"=>$data["key"]),Array('$set'=>array("pickup"=>new MongoDate())));
 
         }
