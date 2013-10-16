@@ -33,6 +33,7 @@ class Storage {
 
         if ($data){
             $db->formKeys->remove(array("key"=>$id));
+            $db->formKeys->remove(array("created"=>array('$lt'=>$expiry)));
             return true;
         }else{
             return false;
@@ -64,6 +65,7 @@ class Storage {
 
         if ($data){
             $db->drops->remove(array("_id"=>$data["_id"]));
+            $db->drops->remove(array("created"=>array('$lt'=>$yesterday)));
             $db->tracks->update(Array("key"=>$data["key"]),Array('$set'=>array("pickup"=>new MongoDate())));
 
         }

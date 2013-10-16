@@ -356,7 +356,7 @@ HjBdnJoB9vFg6JIyiftgrDglD17q+I8M53j99qJ32t6ii6i4xYpD6knPAdBy
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//crypto.stanford.edu/sjcl/sjcl.js"></script>
 
-    <script type="text/javascript" src="/min/?f=js/deaddrop.js,js/merseen.js&456&1"></script>
+    <script type="text/javascript" src="/min/?f=js/deaddrop.js,js/merseen.js&456&2"></script>
 
 
 
