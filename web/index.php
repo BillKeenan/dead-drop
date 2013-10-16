@@ -109,7 +109,7 @@ include_once("./class/storage.php");
                     <div class="panel-body">
                         <div style="overflow: auto" id="finalData">
 Hi,<br>
-I'm sending you some secure data.
+I'm sending you some secure information.
 <br>
 Click here <span class="code" id="url"></span>
 <br>
@@ -118,6 +118,8 @@ and use the password I sent you in the other email
 This will ONLY work once, so be careful with the password, and make sure to copy the data immediately.
 <br>
 After you pick it up, the data will self destruct and this link won't work anymore.
+<br>
+This link will only work for 24 hours, so please check shortly.
 <br>
 Thanks!
                         </div>
@@ -223,6 +225,7 @@ Thanks!
                 <br>
                 Here we follow a couple basic steps.
                 <ul>
+                    <li>Dead Drops are only stored for 24 hours, then they are deleted</li>
                     <li>We never send your data over the wire unencrypted&ndash;we do it all via javascript in YOUR browser</li>
                     <li>We can not decrypt your data, we simply don't have the password</li>
                     <li>We do not use cookies. THE END.</li>
