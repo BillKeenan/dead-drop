@@ -1,0 +1,4 @@
+RewriteEngine On
+    RewriteBase /
+    RewriteRule ^(\d+.*)$  /\?id=$1
+
