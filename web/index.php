@@ -47,12 +47,18 @@
     <!--[if lt IE 9]>
     <script src="/assets/js/html5shiv.js"></script>
     <script src="/assets/js/respond.min.js"></script>
-    <script>
-        if (top != self) {
-            top.location.href = 'http://yoururl/';
-        }
-    </script>
+
     <![endif]-->
+
+    <script>
+        <?php
+
+            if (array_key_exists("id",$_GET)){
+                 echo(sprintf("var dropid='%s';\r\n",$_GET["id"]));
+            }
+     ?>
+
+    </script>
 </head>
 
 <body>
@@ -155,7 +161,7 @@ Thanks!
                 <span class="col-sm-3"><input  type="text" id="password" placeholder="Enter your password here" size="25"/></span>
             </div>
             <div class="panel-footer">
-                <button type="button" class="btn btn-lg btn-primary" onclick="getDrop(urlParams['id'])">Get The Drop</button>
+                <button type="button" class="btn btn-lg btn-primary" onclick="getDrop()">Get The Drop</button>
             </div>
         </div>
     </div><!-- /.col-sm-4 -->

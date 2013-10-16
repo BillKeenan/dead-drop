@@ -6,7 +6,6 @@
 
 var pw;
 var root;
-var urlParams = {};
 
 function symmetricEncrypt() {
     "use strict";
@@ -75,9 +74,15 @@ function makeid()
     return text;
 }
 
-function getDrop(id){
+function getDrop(){
+
+    if (typeof dropid == 'undefined' ){
+        alert('no drop found');
+        window.location.assign(root);
+    }
+
     $.ajax({
-        url: 'getdrop.php?id='+id,
+        url: 'getdrop.php?id='+dropid,
         success: function (data) {
             if (data == null){
                 alert('no drop found');
@@ -128,20 +133,9 @@ $(document).ready(function(){
     var slashes = http.concat("//");
     root = slashes.concat(window.location.hostname);
 
-    //Load the querystring params to search for id
-        (function ()
-        {
-            var match,
-                pl= /\+/g,  // Regex for replacing addition symbol with a space
-                search = /([^&=]+)=?([^&]*)/g,
-                decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-                query  = window.location.search.substring(1);
 
-            while (match = search.exec(query))
-                urlParams[decode(match[1])] = decode(match[2]);
-        })();
 
-    if (urlParams["id"]){
+    if (typeof dropid != 'undefined' ){
         //this is a pickup, show the password dialog
         $(".plain").hide();
         $(".encrypted").show();
@@ -149,5 +143,9 @@ $(document).ready(function(){
         $(".plain").show();
         $("#message").focus();
 
+    }
+
+    if (top != self) {
+        top.location.assign(root);
     }
 });

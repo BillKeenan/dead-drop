@@ -5,12 +5,12 @@
     <ignored path="deadDrop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381328321683" ignored="false" />
-    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381932529139" ignored="false" />
+    <file path="/deaddrop.js" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381935152404" ignored="false" />
     <file path="/a.dummy" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381422406110" ignored="false" />
     <file path="/theme.css" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327684893" ignored="false" />
     <file path="/index.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329186555" ignored="false" />
     <file path="/drop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381330204742" ignored="false" />
-    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381933625768" ignored="false" />
+    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381934943141" ignored="false" />
     <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381521305947" ignored="false" />
     <file path="/CSRF.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329501000" ignored="false" />
     <file path="/pickup.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381524580836" ignored="false" />
@@ -40,14 +40,12 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="19" selection-start="9911" selection-end="9911" vertical-scroll-proportion="0.57564574">
+            <state line="178" column="27" selection-start="5884" selection-end="5884" vertical-scroll-proportion="0.6100861">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1381933626000" expanded="true" signature="1835:1937" placeholder="..." />
-                <marker date="1381933626000" expanded="true" signature="1862:1924" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,7 +72,7 @@
       <file leaf-file-name="deaddrop.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-2.8076923">
+            <state line="100" column="9" selection-start="2308" selection-end="2308" vertical-scroll-proportion="-17.115385">
               <folding />
             </state>
           </provider>
@@ -103,8 +101,8 @@
         <option value="$PROJECT_DIR$/web/Model/storedData.php" />
         <option value="$PROJECT_DIR$/web/drop.php" />
         <option value="$PROJECT_DIR$/web/pickup.php" />
-        <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
         <option value="$PROJECT_DIR$/web/class/storage.php" />
+        <option value="$PROJECT_DIR$/web/js/deaddrop.js" />
         <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
@@ -403,34 +401,9 @@
         <state line="16" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/ico/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/ico/apple-touch-icon-72-precomposed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/openpgp.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="445" column="155" selection-start="206019" selection-end="206019" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/openpgpjs-master/test/encryption.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="4478" selection-end="4534" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/anothertest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/drop.php">
@@ -466,21 +439,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/deaddrop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-2.8076923">
+        <state line="100" column="9" selection-start="2308" selection-end="2308" vertical-scroll-proportion="-17.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="19" selection-start="9911" selection-end="9911" vertical-scroll-proportion="0.57564574">
+        <state line="178" column="27" selection-start="5884" selection-end="5884" vertical-scroll-proportion="0.6100861">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1381933626000" expanded="true" signature="1835:1937" placeholder="..." />
-            <marker date="1381933626000" expanded="true" signature="1862:1924" placeholder="{...}" />
           </folding>
         </state>
       </provider>
