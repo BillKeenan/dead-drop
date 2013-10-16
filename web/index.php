@@ -89,29 +89,27 @@ include_once("./class/storage.php");
 
 
         <div class="row dropComplete" >
-            <div class="alert alert-success">
-                THIS IS THE PASSWORD! YOU NEED TO COPY THIS!-> <strong><span id="pass"></span></strong>
-            </div>
 
 
-            <div class="alert alert-success">
-                Ok, drop made, you need to send the info below, we recomend sending the url/password seperately (email/messenger/text)
-            </div>
+
+            <h2>
+                Ok, drop made- you need to send the message below to the person you want to pick up this drop
+            </h2>
 
             <!-- /.col-sm-4 -->
         </div>
         <div class="row dropComplete" id="finalRow" >
+
+
             <div class="col-sm-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Final Data</h3>
-                    </div>
+                   
                     <div class="panel-body">
                         <div style="overflow: auto" id="finalData">
 Hi,<br>
 I'm sending you some secure information.
 <br>
-Click here <span class="code" id="url"></span>
+Copy this url, and paste it into your web browsers location bar: <span class="code" id="url"></span>
 <br>
 and use the password I sent you in the other email
 <br>
@@ -127,6 +125,9 @@ Thanks!
 
                         </p>
                         <div></div>
+                        <div class="alert alert-success">
+                            THIS IS THE PASSWORD! YOU NEED TO COPY THIS AND SEND IT TO THE PERSON AS WELL-> <strong><span id="pass"></span></strong>
+                        </div>
                     </div>
                     <div class="panel-footer">
                         <button type="button" class="btn btn-lg btn-primary" onclick="window.location.assign(root)">Make another  Drop</button>
@@ -246,8 +247,8 @@ Thanks!
                 <br>
                 The security of the encryption used is handled by the Symmetric Encryption engine developed at Stanford<br>
                 <code>"SJCL is secure. It uses the industry-standard AES algorithm at 128, 192 or 256 bits; the SHA256 hash <br>
-                    function; the HMAC authentication code; the PBKDF2 password strengthener; <br>
-                    and the CCM and OCB authenticated-encryption modes."</code>
+function; the HMAC authentication code; the PBKDF2 password strengthener; <br>
+and the CCM and OCB authenticated-encryption modes."</code>
                 <p></p>
 
                 <h2>What if you're lying?</h2>
