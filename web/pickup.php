@@ -32,7 +32,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/skull.png">
 
-    <link type="text/css" rel="stylesheet" href="/min/?f=dist/css/bootstrap.css,dist/css/bootstrap-theme.min.css,theme.css&1" />   
+    <link type="text/css" rel="stylesheet" href="/min/?f=dist/css/bootstrap.css,dist/css/bootstrap-theme.min.css,theme.css&1" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -141,21 +141,22 @@
                     <h2>The Problem</h2>
                     Sending someone secure data is a real hassle. If they don't have GPG, or some such tool, then what do you do? Send a user name in one email. password in another most likely.
                     <br>
-                    This isn't great <b>That email sits on a server forever! if their email is EVER compromised then so is your data</b>
+                    This isn't great.<br>
+                    <b>That email sits on a server forever! If their email is EVER compromised, then so is your data.</b>
 
                     <br>
                     <br>
                     Here we follow a couple basic steps.
                     <ul>
-                        <li>We never send your data over the wire unencrypted. We do it all via javascript in YOUR browser</li>
+                        <li>We never send your data over the wire unencrypted&ndash;we do it all via javascript in YOUR browser</li>
                         <li>We can not decrypt your data, we simply don't have the password</li>
-                        <li>We do not use cookies. the end.</li>
-                        <li>We do not log your I.P., we log the visit for load calculations, but nothing ABOUT you</li>
-                        <li>We don't do encryption, we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
-                        <li>Error on the side of safety, something goes wrong (wrong password,etc..) we delete the data. This is not a locker.</li>
+                        <li>We do not use cookies. THE END.</li>
+                        <li>We do not log your I.P.&ndash;we log the visit for load calculations, but nothing ABOUT you</li>
+                        <li>We don't do encryption&ndash;we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
+                        <li>We Err on the side of safety&ndash;if an incorrect password is entered, or if anything else goes wrong we delete the data. This is not a locker service</li>
                     </ul>
-                    <h2>So is this safe?</h2>
-                    The design is such that you're on IM with someone, or in email conversation, and you want to send some secure data NOW. So you create the dead drop and send the info.
+                    <h2>So, is this safe?</h2>
+                    The possible security wholes depend on what form of communication you're using, ie: text message, email, carrier pigeon, etc.
                     <br>
                     The issues are
                     <ul>
@@ -163,24 +164,29 @@
                         <li>If their email is compromised, and someone is monitoring it, well your out of luck</li>
                         <li>you text the info, and someone else has the recipients phone</li>
                     </ul>
-                    I think that if these are issues, your a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort and really shouldn't be using anonymous services on the internet.
+                    If these are deal breakers, you're probably a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort, and thus shouldn't be using anonymous services on the internet.
+                    <br>
+                    The security of the encryption used is handled by the Symmetric Encryption engine developed at Stanford<br>
+                    <code>"SJCL is secure. It uses the industry-standard AES algorithm at 128, 192 or 256 bits; the SHA256 hash <br>
+                        function; the HMAC authentication code; the PBKDF2 password strengthener; <br>
+                        and the CCM and OCB authenticated-encryption modes."</code>
                     <p></p>
 
                     <h2>What if you're lying?</h2>
-                    Well, you're a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code</a>
+                    Well, you're a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code.</a>
                     <h2>Technologies in Use</h2>
                     <a target="_blank" href="https://gist.github.com/banksean/300494">MersenneTwister implementation in javacsript</a>
                     <br>
                     <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Symmetric Encryption in javascript</a>
 
                     <h2>Suggestions? Ideas?</h2>
-                    <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'0'+'8'+';'+'&'+'#'+
-                            '1'+'1'+'6'+';'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'5'+'8'+';'+'d'+'&'+'#'+'1'+'0'+'1'+';'+'a'+'d'+'%'+
-                            '6'+'4'+'r'+'o'+'p'+'&'+'#'+'6'+'4'+';'+'b'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'3'+'7'+';'+'6'+'7'+'&'+
-                            '#'+'1'+'0'+'9'+';'+'%'+'6'+'F'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'%'+'2'+'&'+'#'+'6'+'9'+';'+'n'+'e'+'t'+
-                            "'"+'>'+'d'+'e'+'a'+'d'+'d'+'r'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'1'+'1'+'2'+';'+'&'+'#'+'6'+'4'+';'+
-                            'b'+'&'+'#'+'1'+'0'+'5'+';'+'g'+'m'+'o'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+'4'+'6'+';'+'n'+'&'+'#'+
-                            '1'+'0'+'1'+';'+'&'+'#'+'1'+'1'+'6'+';'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript>
+                    <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'&'+'#'+'9'+'7'+';'+'i'+'l'+'t'+'&'+'#'+'1'+'1'+'1'+';'+'&'+
+                            '#'+'5'+'8'+';'+'&'+'#'+'9'+'8'+';'+'i'+'%'+'6'+'C'+'%'+'6'+'C'+'%'+'4'+'0'+'b'+'%'+'6'+'9'+'g'+'%'+
+                            '&'+'#'+'5'+'4'+';'+'D'+'o'+'j'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'&'+'#'+'4'+'6'+';'+'%'+'6'+'E'+'%'+'6'+
+                            '&'+'#'+'5'+'3'+';'+'t'+"'"+'>'+'b'+'i'+'l'+'l'+'&'+'#'+'6'+'4'+';'+'b'+'&'+'#'+'1'+'0'+'5'+';'+'g'+
+                            'm'+'o'+'j'+'o'+'&'+'#'+'4'+'6'+';'+'n'+'&'+'#'+'1'+'0'+'1'+';'+'t'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript>
+                    <br>
+
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->

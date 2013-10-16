@@ -5,8 +5,8 @@
  */
 
 var pw;
-var errCount=0;
 var root;
+var urlParams = {};
 
 function symmetricEncrypt() {
     "use strict";
@@ -14,25 +14,25 @@ function symmetricEncrypt() {
     var crypt = sjcl.encrypt(pw, $('#message').val());
     drop(crypt);
     $("#password").val(pw);
+
+    $('html,body').animate({
+            scrollTop: $("#password").offset().top},
+        'slow');
 }
 
-function symmetricDecrypt () {
+function symmetricDecrypt (data) {
     try{
-    "use strict";
-    var pw = $("#password").val();
-    var data = $('#encrypted').text();
-    console.log(data);
-    var crypt = sjcl.decrypt(pw, data);
-    $("#decrypted").text(crypt);
-    $(".final").show();
-    $(".encrypted").hide();
-    }catch(err){
-        errCount++;
-        alert('uh oh, that didnt work');
-        if (errCount ==3){
-            window.location.assign(root);
-        }
+        "use strict";
+        var pw = $("#password").val();
+        //trim it
+        pw = $.trim(pw);
 
+        return sjcl.decrypt(pw, data);
+
+    }catch(err){
+        alert('Seems the password didn\'t work, ask for the information to be sent again');
+        window.location.assign(root);
+        return false;
     }
 }
 
@@ -48,10 +48,10 @@ function drop (cryptData) {
     "use strict";
     $.post( "drop.php",{data:cryptData}, function(data) {
         $(".plain").hide(300,function(){
-                var id = data.id;
-                $("#url").text (buildUrl(id));
-                $("#pass").text(pw);
-            $(".final").show(200);
+            var id = data.id;
+            $("#url").text (buildUrl(id));
+            $("#pass").text(pw);
+            $(".dropComplete").show(200);
         }
         );
 
@@ -81,13 +81,19 @@ function getDrop(id){
     $.ajax({
         url: 'getdrop.php?id='+id,
         success: function (data) {
-            $("#encrypted").text(JSON.stringify(data));
-            $(".encrypted").show();
-            $(".initial").hide();
-            $("#password").focus();
+            if (data == null){
+                alert('no drop found');
+                window.location.assign(root);
+                return false;
+            }
+            var plainText  = symmetricDecrypt( JSON.stringify(data));
+            $("#decrypted").text(plainText);
+
+            $(".encrypted").hide(300,function(){
+                $(".final").show(300);
+            });
         },
         error: function () {
-
             throw new Error("Could not load script " + script);
         }
     });
@@ -98,7 +104,7 @@ function buildUrl(id){
     var http = location.protocol;
     var slashes = http.concat("//");
     var host = slashes.concat(window.location.hostname);
-    var final = host.concat("/pickup.php?id=");
+    var final = host.concat("/?id=");
     var final = final.concat(id);
     return final;
 
@@ -120,8 +126,30 @@ function require(script) {
 }
 
 $(document).ready(function(){
-    $("#message").focus();
     var http = location.protocol;
     var slashes = http.concat("//");
     root = slashes.concat(window.location.hostname);
+
+    //Load the querystring params to search for id
+        (function ()
+        {
+            var match,
+                pl= /\+/g,  // Regex for replacing addition symbol with a space
+                search = /([^&=]+)=?([^&]*)/g,
+                decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+                query  = window.location.search.substring(1);
+
+            while (match = search.exec(query))
+                urlParams[decode(match[1])] = decode(match[2]);
+        })();
+
+    if (urlParams["id"]){
+        //this is a pickup, show the password dialog
+        $(".plain").hide();
+        $(".encrypted").show();
+    }else{
+        $(".plain").show();
+        $("#message").focus();
+
+    }
 });

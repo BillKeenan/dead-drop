@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +11,11 @@
     <!-- secure, password, encryption -->
 
     <style>
-        .encrypt{
+        .dropComplete{
             display: none;
+        }
+        .plain{
+            display:none;
         }
         .final{
             display: none;
@@ -23,6 +24,11 @@
         .code{
             font-weight:bold;font-weight:normal;color:grey;letter-spacing:0pt;word-spacing:0pt;font-size:13px;text-align:left;font-family:tahoma, verdana, arial, sans-serif;line-height:1;
         }
+        .final .decrypted{
+            display: none;
+        }
+
+        .encrypted{ display: none;}
 
     </style>
     <meta charset="utf-8">
@@ -63,7 +69,7 @@
 
 
 
-        <div class="row final" >
+        <div class="row dropComplete" >
             <div class="alert alert-success">
                 THIS IS THE PASSWORD! YOU NEED TO COPY THIS!-> <strong><span id="pass"></span></strong>
             </div>
@@ -75,7 +81,7 @@
 
             <!-- /.col-sm-4 -->
         </div>
-        <div class="row final" id="finalRow" >
+        <div class="row dropComplete" id="finalRow" >
             <div class="col-sm-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -121,12 +127,62 @@ Thanks!
                     <textarea name="message" id="message" style="width:100%" rows="11"></textarea>
                 </div>
                 <div class="panel-footer">
-                    <button type="button" class="btn btn-lg btn-primary" onclick="symmetricEncrypt()">Encrypt!</button>
+                    <button type="button" class="btn btn-lg btn-primary" onclick="symmetricEncrypt()">Make the drop!</button>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
 
+<div class="row encrypted" >
+
+
+    <!-- /.col-sm-4 -->
+</div>
+<div class="row encrypted" id="finalRow" >
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Retrieve a the Drop</h3>
+            </div>
+            <div class="panel-body">
+                <div style="overflow: auto">
+                    Entering the password and clicking <strong>'Get The Drop'</strong> WILL delete the information on the server. Ensure you have correctly copied the password.
+                </div>
+                <br><br>
+                <span class="col-sm-3"><input  type="text" id="password" placeholder="Enter your password here" size="25"/></span>
+            </div>
+            <div class="panel-footer">
+                <button type="button" class="btn btn-lg btn-primary" onclick="getDrop(urlParams['id'])">Get The Drop</button>
+            </div>
+        </div>
+    </div><!-- /.col-sm-4 -->
+</div>
+
+<div class="row final" >
+
+    <div class="alert alert-success">
+        Success
+    </div>
+
+    <!-- /.col-sm-4 -->
+</div>
+<div class="row final" id="finalRow" >
+    <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Your Dead Drop</h3>
+            </div>
+            <div class="panel-body">
+                <div style="overflow: auto" id="decrypted">
+
+                </div>
+            </div>
+            <div class="panel-footer">
+                <button type="button" class="btn btn-lg btn-primary" onclick="window.location.assign(root)">Make your own Drop</button>
+            </div>
+        </div>
+    </div><!-- /.col-sm-4 -->
+</div>
 
 
 <a id="about"></a>
@@ -148,12 +204,12 @@ Thanks!
                 <br>
                 Here we follow a couple basic steps.
                 <ul>
-                    <li>We never send your data over the wire unencrypted-&mdash;we do it all via javascript in YOUR browser</li>
+                    <li>We never send your data over the wire unencrypted&ndash;we do it all via javascript in YOUR browser</li>
                     <li>We can not decrypt your data, we simply don't have the password</li>
                     <li>We do not use cookies. THE END.</li>
-                    <li>We do not log your I.P.&mdash;we log the visit for load calculations, but nothing ABOUT you</li>
-                    <li>We don't do encryption&mdash;we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
-                    <li>We Err on the side of safety&mdash;if an incorrect password is entered, or if anything else goes wrong we delete the data. This is not a locker service</li>
+                    <li>We do not log your I.P.&ndash;we log the visit for load calculations, but nothing ABOUT you</li>
+                    <li>We don't do encryption&ndash;we leave that to the clever people at <a target="_blank" href="http://bitwiseshiftleft.github.io/sjcl/">Stanford</a></li>
+                    <li>We Err on the side of safety&ndash;if an incorrect password is entered, or if anything else goes wrong we delete the data. This is not a locker service</li>
                 </ul>
                 <h2>So, is this safe?</h2>
                 The possible security wholes depend on what form of communication you're using, ie: text message, email, carrier pigeon, etc.
