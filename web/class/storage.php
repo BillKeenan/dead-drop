@@ -23,13 +23,32 @@ class Storage {
         return $data->key;
     }
 
-    public function TimedKey($key){
+    public function checkTimedKey($id){
         $db = $this->Mongo();
+        $date = new DateTime();
+        $date->sub(new DateInterval('PT30M'));
+        $expiry = new MongoDate($date->getTimestamp());
         //load it up
+        $data = $db->formKeys->findOne(array("key"=>$id,"created"=>array('$gt'=>$expiry)));
 
+        if ($data){
+            $db->formKeys->remove(array("key"=>$id));
+            return true;
+        }else{
+            return false;
+        }
     }
 
-    private function Mongo(){
+    public static function timedKey(){
+        $id = uniqid();
+        $db = Storage::Mongo();
+        //load it up
+        $db->formKeys->insert(Array("key"=>$id,"created"=>new MongoDate()));
+        return $id;
+    }
+
+
+    private static function Mongo(){
         $mongo = new MongoClient();
         $db = $mongo->deadDrop;
         return $db;

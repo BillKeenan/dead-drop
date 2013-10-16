@@ -21,20 +21,22 @@ if (! strtoupper($_SERVER['REQUEST_METHOD'])=="POST"){
 }
 
 //only 1 form value
-if (! (count(array_keys($_POST)) ==1)){
+if (! (count(array_keys($_POST)) ==2)){
     header('HTTP/1.1 500 Internal Server Error');
     print("invalid number of values");
     exit;
 }
 
-if (! array_key_exists("data",$_POST)){
+if (! array_key_exists("data",$_POST) || ! array_key_exists("key",$_POST)){
     header('HTTP/1.1 500 Internal Server Error');
     print("data missing");
     exit;
 }
 
+
 //ok, looks alright
 $data = $_POST["data"];
+$id = $_POST["key"];
 
 //data should look as expected, and parse as data
 $jsonData = json_decode($data);
@@ -50,7 +52,15 @@ foreach($keysToCheck as $key=>$value){
     }
 }
 
+
 $storage = new Storage();
+
+if (!$storage->checkTimedKey($id)){
+    header('HTTP/1.1 500 Internal Server Error');
+    print("data missing");
+    exit;
+}
+
 $id = $storage->StoreData($jsonData);
 
 header('Content-Type: application/json');

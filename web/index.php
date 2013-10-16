@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+include_once("./class/storage.php");
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta property="og:image" content="http://dead-drop.me/skull.png" />
@@ -9,6 +11,21 @@
     <meta name="revisit-after" content="3 month">
     <title>Send Secure information, passwords, links, dead drop</title>
     <!-- secure, password, encryption -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+
+    <![endif]-->
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
 
     <style>
         .dropComplete{
@@ -30,6 +47,10 @@
 
         .encrypted{ display: none;}
 
+        .code{
+            white-space: pre-wrap;
+        }
+
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,18 +58,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/skull.png">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="/assets/js/html5shiv.js"></script>
-    <script src="/assets/js/respond.min.js"></script>
-
-    <![endif]-->
 
     <script>
         <?php
@@ -62,7 +72,7 @@
 </head>
 
 <body>
-
+<input type="hidden" id="formKey" value="<?php print( Storage::timedKey()); ?>">
     <div class="container theme-showcase">
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -117,7 +127,7 @@ Thanks!
                         <div></div>
                     </div>
                     <div class="panel-footer">
-
+                        <button type="button" class="btn btn-lg btn-primary" onclick="window.location.assign(root)">Make another  Drop</button>
                     </div>
                 </div>
             </div><!-- /.col-sm-4 -->
@@ -221,7 +231,7 @@ Thanks!
                     <li>We Err on the side of safety&ndash;if an incorrect password is entered, or if anything else goes wrong we delete the data. This is not a locker service</li>
                 </ul>
                 <h2>So, is this safe?</h2>
-                The possible security wholes depend on what form of communication you're using, ie: text message, email, carrier pigeon, etc.
+                The possible security issues depend on what form of communication you're using, ie: text message, email, carrier pigeon, etc.
                 <br>
                 The issues are
                 <ul>
@@ -347,6 +357,10 @@ HjBdnJoB9vFg6JIyiftgrDglD17q+I8M53j99qJ32t6ii6i4xYpD6knPAdBy
     <script src="//crypto.stanford.edu/sjcl/sjcl.js"></script>
 
     <script type="text/javascript" src="/min/?f=js/deaddrop.js,js/merseen.js&456&1"></script>
+
+
+
+
 <!-- local all hosted version
     <script type="text/javascript" src="/min/?f=assets/js/jquery.js,js/deaddrop.js,dist/js/bootstrap.min.js,assets/js/holder.js,js/sjcl.js,js/merseen.js&456&1"></script>
 -->

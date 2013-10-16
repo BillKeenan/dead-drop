@@ -11,7 +11,8 @@ function symmetricEncrypt() {
     "use strict";
     pw = makeid();
     var crypt = sjcl.encrypt(pw, $('#message').val());
-    drop(crypt);
+    var id = $("#formKey").val();
+    drop(crypt,id);
     $("#password").val(pw);
 
     $('html,body').animate({
@@ -43,9 +44,9 @@ mail = function(){
     window.open('mailto:nobody@nowhere.blah?subject='+subject+'&body='+body, '_Blank')
 }
 
-function drop (cryptData) {
+function drop (cryptData,id) {
     "use strict";
-    $.post( "drop.php",{data:cryptData}, function(data) {
+    $.post( "drop.php",{data:cryptData,key:id}, function(data) {
         $(".plain").hide(300,function(){
             var id = data.id;
             $("#url").text (buildUrl(id));
@@ -55,7 +56,9 @@ function drop (cryptData) {
         );
 
 
-    });
+    }).fail(function() {
+            alert( "Something went wrong, perhaps you waited to long, refresh and try again" );
+        });
 }
 function makeid()
 {
@@ -107,7 +110,7 @@ function buildUrl(id){
     var http = location.protocol;
     var slashes = http.concat("//");
     var host = slashes.concat(window.location.hostname);
-    var final = host.concat("/?id=");
+    var final = host.concat("/");
     var final = final.concat(id);
     return final;
 
