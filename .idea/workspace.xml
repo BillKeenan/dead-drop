@@ -10,7 +10,7 @@
     <file path="/theme.css" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381327684893" ignored="false" />
     <file path="/index.html" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329186555" ignored="false" />
     <file path="/drop.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381948787413" ignored="false" />
-    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1382016456890" ignored="false" />
+    <file path="/index.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1382020570588" ignored="false" />
     <file path="/storage.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381950318130" ignored="false" />
     <file path="/CSRF.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381329501000" ignored="false" />
     <file path="/pickup.php" changelist="7f4346bf-6e95-4feb-b65c-f954575bca5a" time="1381524580836" ignored="false" />
@@ -41,9 +41,25 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="281" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.59409595">
-              <folding />
+            <state line="86" column="17" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.701107">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facebook-Icon.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/Facebook-Icon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -266,6 +282,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadDrop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -430,13 +464,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/respond.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/getdrop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="1" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
@@ -487,13 +514,6 @@
         <state line="13" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.22941177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.59409595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/respond.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
@@ -533,6 +553,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="91" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/Facebook-Icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="17" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.701107">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

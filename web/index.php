@@ -4,6 +4,8 @@ include_once("./class/storage.php");
 <html lang="en">
 <head>
 <meta property="og:image" content="http://dead-drop.me/skull.png" />
+    <meta property="og:title" content="Send Secure information, passwords, links, dead drop" />
+
     <meta name="description" content="Allows you to create a one-time use link to securely send passwords or other information" />
     <meta name="keywords" content="dead drop,security,encryption,passwords,secure" />
     <meta name="author" content="metatags generator">
@@ -81,7 +83,27 @@ include_once("./class/storage.php");
     <p>Need to send some data securely? Password? Love Note? Haiku? This is the place.</p>
     <div class="col-sm-6"><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></div>
     <div class="col-sm-6" data-toggle="tooltip" title="Tor is an anonymouse network, see : https://www.torproject.org/"><h2>This is available over <a href="http://yoewa2oiuuducqb5.onion/">TOR</a></h2></div>
-<br>
+    <div class="col-sm-2"><a style="float:left" href="#"
+        onclick="
+        window.open(
+        'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+        'facebook-share-dialog',
+        'width=626,height=436');
+        return false;">
+       <img style="float:left" src="/images/Facebook-Icon.png">
+        </a> <a style="float:left" href="#"  onclick="
+        window.open(
+        'http://twitter.com/home?status='+encodeURIComponent(window.document.title)+'-'+encodeURIComponent(location.href),
+        'facebook-share-dialog',
+        'width=626,height=436');
+        return false;">
+
+            <img style="float:left"  src="images/twitter-bird-white-on-blue.png"></a></div>
+    <div class="col-sm-2">
+
+    </div>
+    <br>
+    <br>
 </div>
 
 
