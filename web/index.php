@@ -80,7 +80,7 @@ include_once("./class/storage.php");
     <h1>One Time Dead Drop</h1>
     <p>Need to send some data securely? Password? Love Note? Haiku? This is the place.</p>
     <div class="col-sm-6"><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></div>
-    <div class="col-sm-6"><h2>This is available over <a href="http://yoewa2oiuuducqb5.onion/">TOR</a></h2></div>
+    <div class="col-sm-6" data-toggle="tooltip" title="Tor is an anonymouse network, see : https://www.torproject.org/"><h2>This is available over <a href="http://yoewa2oiuuducqb5.onion/">TOR</a></h2></div>
 <br>
 </div>
 
@@ -103,7 +103,7 @@ include_once("./class/storage.php");
 
             <div class="col-sm-12">
                 <div class="panel panel-default">
-                   
+
                     <div class="panel-body">
                         <div style="overflow: auto" id="finalData">
 Hi,<br>
@@ -275,79 +275,10 @@ and the CCM and OCB authenticated-encryption modes."</code>
 
             </div>
 
-            <div class="row plain" id="plainTextRow">
-                <div class="col-sm-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">GPG Public key for bill@bigmojo.net</h3>
-                        </div>
-                        <div class="panel-body">
-                            <pre>
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
-Comment: GPGTools - http://gpgtools.org
-
-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
-=9n1M
------END PGP PUBLIC KEY BLOCK-----
-
-</pre>
-                        </div>
-                        <div class="panel-footer">
-                        </div>
-                    </div>
-                </div><!-- /.col-sm-4 -->
-            </div>
+            <h3 class="panel-title"><a href="bill@bigmojo.net.asc" target="_blank">GPG Public key for bill@bigmojo.net</a></h3>
             </div>
         </div>
     </div><!-- /.col-sm-4 -->
-</div>
-
 </div> <!-- /container -->
 
 <!-- Bootstrap core JavaScript
