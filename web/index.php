@@ -3,7 +3,7 @@ include_once("./class/storage.php");
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-<meta property="og:image" content="http://dead-drop.me/skull.png" />
+<meta property="og:image" content="http://dead-drop.me/images/Skull_big.jpg" />
     <meta property="og:title" content="Send Secure information, passwords, links, dead drop" />
 
     <meta name="description" content="Allows you to create a one-time use link to securely send passwords or other information" />
@@ -83,7 +83,7 @@ include_once("./class/storage.php");
     <p>Need to send some data securely? Password? Love Note? Haiku? This is the place.</p>
     <div class="col-sm-6"><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></div>
     <div class="col-sm-6" data-toggle="tooltip" title="Tor is an anonymouse network, see : https://www.torproject.org/"><h2>This is available over <a href="http://yoewa2oiuuducqb5.onion/">TOR</a></h2></div>
-    <div class="col-sm-2"><a style="float:left" href="#"
+    <div class="span4 offset4"><a style="float:left" href="#"
         onclick="
         window.open(
         'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
@@ -127,7 +127,10 @@ include_once("./class/storage.php");
                 <div class="panel panel-default">
 
                     <div class="panel-body">
+                        <div class="well well-sm">
+
                         <div style="overflow: auto" id="finalData">
+
 Hi,<br>
 I'm sending you some secure information.
 <br>
@@ -143,6 +146,7 @@ This link will only work for 24 hours, so please check shortly.
 <br>
 Thanks!
                         </div>
+                            </div>
                         <p>
 
                         </p>
