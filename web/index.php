@@ -3,7 +3,7 @@ include_once("./class/storage.php");
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-<meta property="og:image" content="http://dead-drop.me/images/Skull_big.jpg" />
+<meta property="og:image" content="/images/Skull_big.jpg" />
     <meta property="og:title" content="Send Secure information, passwords, links, dead drop" />
 
     <meta name="description" content="Allows you to create a one-time use link to securely send passwords or other information" />
@@ -12,7 +12,7 @@ include_once("./class/storage.php");
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="3 month">
     <title>Send Secure information, passwords, links, dead drop</title>
-    <!-- secure, password, encryption -->
+    <!-- secure, password, encryption ->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -93,7 +93,7 @@ include_once("./class/storage.php");
        <img style="float:left" src="/images/Facebook-Icon.png">
         </a> <a style="float:left" href="#"  onclick="
         window.open(
-        'http://twitter.com/home?status='+encodeURIComponent(window.document.title)+'-'+encodeURIComponent(location.href),
+        'https://twitter.com/home?status='+encodeURIComponent(window.document.title)+'-'+encodeURIComponent(location.href),
         'facebook-share-dialog',
         'width=626,height=436');
         return false;">
