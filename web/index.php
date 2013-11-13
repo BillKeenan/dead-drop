@@ -23,10 +23,10 @@ include_once("./class/storage.php");
 
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
 
 
     <style>
@@ -135,7 +135,7 @@ Hi,<br>
 I'm sending you some secure information.
 <br>
 Copy this url, and paste it into your web browsers location bar: <span class="code" id="url"></span>
-<br>
+<span id="plainUrlText"><br>The Drop is also available over the clear Internet here: <span class="code"  id="plainUrl"></span><br></span>
 and use the password I sent you in the other email
 <br>
 This will ONLY work once, so be careful with the password, and make sure to copy the data immediately.
@@ -310,11 +310,12 @@ and the CCM and OCB authenticated-encryption modes."</code>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//crypto.stanford.edu/sjcl/sjcl.js"></script>
-    <script type="text/javascript" src="/min/?f=js/deaddrop.js,js/merseen.js&456&2"></script>
+    <script src="/js/sjcl.js"></script>
+<script src="/js/deaddrop.js"></script>
+<script src="/js/merseen.js"></script>
 <!-- local all hosted version
     <script type="text/javascript" src="/min/?f=assets/js/jquery.js,js/deaddrop.js,dist/js/bootstrap.min.js,assets/js/holder.js,js/sjcl.js,js/merseen.js&456&1"></script>
 -->

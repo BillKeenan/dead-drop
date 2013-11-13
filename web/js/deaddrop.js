@@ -49,7 +49,17 @@ function drop (cryptData,id) {
     $.post( "drop.php",{data:cryptData,key:id}, function(data) {
         $(".plain").hide(300,function(){
             var id = data.id;
-            $("#url").text (buildUrl(id));
+                var url = buildUrl(id);
+            $("#url").text (url);
+
+                //if we're tor, give a plaintext as well
+                if (url.indexOf('onion')>0 ){
+                    //show plaintext as well
+                    $("#plainUrl").text('http://dead-drop.me/'+id);
+                }else{
+                    $("#plainUrlText").remove();
+                }
+
             $("#pass").text(pw);
             $(".dropComplete").show(200);
         }
