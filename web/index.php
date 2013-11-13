@@ -312,7 +312,7 @@ and the CCM and OCB authenticated-encryption modes."</code>
 <!-- Placed at the end of the document so the pages load faster -->
     <script src="/js/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sjcl.js"></script>
 <script src="/js/deaddrop.js"></script>
 <script src="/js/merseen.js"></script>
