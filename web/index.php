@@ -78,7 +78,7 @@ include_once("./class/storage.php");
     <div class="container theme-showcase">
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<div class="jumbotron" id="masthead">
     <h1>One Time Dead Drop</h1>
     <p>Need to send some data securely? Password? Love Note? Haiku? This is the place.</p>
     <div class="col-sm-6"><a class="btn btn-primary btn-lg" href="#about">Learn more &raquo;</a></div>
@@ -134,26 +134,26 @@ include_once("./class/storage.php");
 Hi,<br>
 I'm sending you some secure information.
 <br>
-Copy this url, and paste it into your web browsers location bar: <span class="code" id="url"></span>
+Click this url <br>
+<span class="code" id="url"></span><br>
+or if that doesnt work, copy and paste it into your web browsers location bar
+<span class="code" id="url"></span>
 <span id="plainUrlText"><br>The Drop is also available over the clear Internet here: <span class="code"  id="plainUrl"></span><br></span>
-and use the password I sent you in the other email
 <br>
 This will ONLY work once, so be careful with the password, and make sure to copy the data immediately.
+<br>
+This is the password
+<br>
+<strong><span id="pass"></span></strong>
 <br>
 After you pick it up, the data will self destruct and this link won't work anymore.
 <br>
 This link will only work for 24 hours, so please check shortly.
 <br>
 Thanks!
-                        </div>
-                            </div>
-                        <p>
+</div>
+    </div>
 
-                        </p>
-                        <div></div>
-                        <div class="alert alert-success">
-                            THIS IS THE PASSWORD! YOU NEED TO COPY THIS AND SEND IT TO THE PERSON AS WELL-> <strong><span id="pass"></span></strong>
-                        </div>
                     </div>
                     <div class="panel-footer">
                         <button type="button" class="btn btn-lg btn-primary" onclick="window.location.assign(root)">Make another  Drop</button>
@@ -221,7 +221,7 @@ Thanks!
                 <h3 class="panel-title">Your Dead Drop</h3>
             </div>
             <div class="panel-body">
-                <div style="overflow: auto" id="decrypted">
+                <div style="overflow: auto;white-space:pre" id="decrypted">
 
                 </div>
             </div>
@@ -314,7 +314,7 @@ and the CCM and OCB authenticated-encryption modes."</code>
     <!-- Latest compiled and minified JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sjcl.js"></script>
-<script src="/js/deaddrop.js"></script>
+<script src="/js/deaddrop.js?cacheBreak=<?php echo (time());?>"></script>
 <script src="/js/merseen.js"></script>
 <!-- local all hosted version
     <script type="text/javascript" src="/min/?f=assets/js/jquery.js,js/deaddrop.js,dist/js/bootstrap.min.js,assets/js/holder.js,js/sjcl.js,js/merseen.js&456&1"></script>

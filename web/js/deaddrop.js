@@ -46,7 +46,7 @@ mail = function(){
 
 function drop (cryptData,id) {
     "use strict";
-    $.post( "drop.php",{data:cryptData,key:id}, function(data) {
+    $.post( "/drop.php",{data:cryptData,key:id}, function(data) {
         $(".plain").hide(300,function(){
             var id = data.id;
                 var url = buildUrl(id);
@@ -95,7 +95,7 @@ function getDrop(){
     }
 
     $.ajax({
-        url: 'getdrop.php?id='+dropid,
+        url: '/getdrop.php?id='+dropid,
         success: function (data) {
             if (data == null){
                 alert('no drop found');
@@ -120,7 +120,10 @@ function buildUrl(id){
     var http = location.protocol;
     var slashes = http.concat("//");
     var host = slashes.concat(window.location.hostname);
-    var final = host.concat("/");
+    if (window.location.port != ""){
+        host = host.concat(":").concat(window.location.port);
+    }
+    var final = host.concat("/pickup/");
     var final = final.concat(id);
     return final;
 
@@ -144,7 +147,7 @@ function require(script) {
 $(document).ready(function(){
     var http = location.protocol;
     var slashes = http.concat("//");
-    root = slashes.concat(window.location.hostname);
+    root = "/";
 
 
 
@@ -152,6 +155,9 @@ $(document).ready(function(){
         //this is a pickup, show the password dialog
         $(".plain").hide();
         $(".encrypted").show();
+
+        //hide the banner
+        $('#masthead').hide()
     }else{
         $(".plain").show();
         $("#message").focus();
