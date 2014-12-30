@@ -79,7 +79,7 @@ function makeid()
 
     for (var i=0;i<5;i++) {
         //throw away a couple
-        console.log(sjcl.random.randomWords(1));
+        sjcl.random.randomWords(1);
     }
 
 
