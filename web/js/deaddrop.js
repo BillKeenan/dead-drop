@@ -74,7 +74,17 @@ function makeid()
 {
     "use strict";
 
-    var m = new MersenneTwister();
+    //get a good seed, default seed is awful datetime.now
+    sjcl.random.startCollectors();
+
+    for (var i=0;i<5;i++) {
+        //throw away a couple
+        console.log(sjcl.random.randomWords(1));
+    }
+
+
+    var m = new MersenneTwister(sjcl.random.randomWords(1));
+    sjcl.random.stopCollectors();
 
 
     var text = "";

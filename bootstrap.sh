@@ -4,8 +4,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 sudo echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 
 sudo apt-get install -y apache2
-
-
+sudo mv /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 sudo apt-get update
 sudo apt-get install -y python-software-properties
 sudo add-apt-repository -y ppa:ondrej/php5
@@ -38,3 +37,4 @@ sudo apachectl start
 
 
 
+echo "run this -> open http://localhost:9001"
