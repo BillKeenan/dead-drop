@@ -278,7 +278,7 @@ and the CCM and OCB authenticated-encryption modes."</code>
                 <p></p>
 
                 <h2>What if you're lying?</h2>
-                Well, you're a clever person, have a look at the <a href="js/deaddrop.js" target="_blank">code.</a>
+                Well, you're a clever person, have a look at the <a href="https://github.com/BillKeenan/dead-drop" target="_blank">code.</a> on github
                 <h2>Technologies in Use</h2>
                 <a target="_blank" href="https://gist.github.com/banksean/300494">MersenneTwister implementation in javacsript</a>
                 <br>
