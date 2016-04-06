@@ -15,7 +15,8 @@ There is a sample Apache configuration, as well as a vagrant test environemnt.
 1. git clone git@github.com:BillKeenan/dead-drop.git
 2. cd dead-drop.me
 3. vagrant up
-4. sh startRsynch.sh
 4. open up http://localhost:9001
 
 You can start deving rightaway
+
+Vagrant now watches the folders for rsynch automatically, so rsynch.sh probably isn't needed.
