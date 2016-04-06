@@ -41,9 +41,9 @@ $id = $_POST["key"];
 //data should look as expected, and parse as data
 $jsonData = json_decode($data);
 
-$keysToCheck= ["iv","v","iter","ks","ts","mode","adata","cipher","salt","ct"];
+$keysToCheck = ["iv","v","iter","ks","ts","mode","adata","cipher","salt","ct"];
 
-//verify our vaious keys
+//verify our various keys
 foreach($keysToCheck as $key=>$value){
     if (! property_exists($jsonData,$value)){
         header('HTTP/1.1 500 Internal Server Error');
