@@ -20,3 +20,5 @@ There is a sample Apache configuration, as well as a vagrant test environemnt.
 You can start deving rightaway
 
 Vagrant now watches the folders for rsynch automatically, so rsynch.sh probably isn't needed.
+
+This code is free to use as per the license, it would be polite to put a link to dead-drop.me in the footer however.
