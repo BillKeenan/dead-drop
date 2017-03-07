@@ -266,7 +266,7 @@ Thanks!
                 The issues are
                 <ul>
                     <li>someone gets the url/password before the intended recipient.
-                    <li>If their email is compromised, and someone is monitoring it, well your out of luck</li>
+                    <li>If their email is compromised, and someone is monitoring it, well you're out of luck</li>
                     <li>you text the info, and someone else has the recipients phone</li>
                 </ul>
                 If these are deal breakers, you're probably a <a target="_blank" href="http://en.wikipedia.org/wiki/James_Bond">spy</a> of some sort, and thus shouldn't be using anonymous services on the internet.
