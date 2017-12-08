@@ -1,3 +1,7 @@
+I've moved this over to python, ciew the repo here: https://github.com/BillKeenan/dead-drop-python
+
+
+
 # dead-drop
 =========
 
